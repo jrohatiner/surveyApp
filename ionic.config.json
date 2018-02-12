@@ -1,6 +1,6 @@
 {
   "name": "survey",
-  "app_id": "53aa319b",
+  "app_id": "548bb178",
   "type": "ionic1",
   "integrations": {
     "gulp": {}
@@ -11,6 +11,8 @@
     "!www/lib/**/*",
     "!www/**/*.map"
   ],
-
-  "gulpStartupTasks": ["sass", "watch"]
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ]
 }
