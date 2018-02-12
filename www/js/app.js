@@ -12,6 +12,11 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
   $sceDelegateProvider.resourceUrlWhitelist([ 'self','*://www.youtube.com/**', '*://player.vimeo.com/video/**']);
 
 })
+    .run(function(){
+        Pro.init('548bb178', {
+            appVersion: '1.0.19'
+        });
+    })
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

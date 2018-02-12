@@ -9,7 +9,8 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
-    "@ionic/pro": "1.0.17",
+    "@ionic/app-scripts": "^3.1.8",
+    "@ionic/pro": "^1.0.19",
     "cordova-android": "7.0.0",
     "cordova-plugin-device": "^2.0.1",
     "cordova-plugin-ionic": "^3.1.2",
@@ -27,7 +28,7 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-ionic": {
         "APP_ID": "548bb178",
-        "CHANNEL_NAME": "Master",
+        "CHANNEL_NAME": "test",
         "UPDATE_METHOD": "background",
         "WARN_DEBUG": "true",
         "UPDATE_API": "https://api.ionicjs.com",
