@@ -1,0 +1,30 @@
+<ion-view title="Survey" id="page2">
+  <ion-content padding="true" class="has-header">
+    <div class="spacer" style="height: 40px;"></div>
+    <div id="survey-markdown1" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Fill out this form and we will record your results </p>
+    </div>
+    <form id="survey-form1" class="list">
+      <label class="item item-input" id="survey-input2">
+        <span class="input-label">Name</span>
+        <input type="text" placeholder="" ng-model="data.name">
+      </label>
+      <label class="item item-select" id="survey-select1">
+        <span class="input-label">Favorite Color</span>
+        <select ng-model="data.favorite_color">
+          <option>Green</option>
+          <option>Orange</option>
+          <option>Red</option>
+          <option>Pink</option>
+          <option>Blue</option>
+          <option>Black</option>
+        </select>
+      </label>
+      <ion-item class="item-divider" id="survey-list-item-divider1"> Favorite PizzaTopping</ion-item>
+      <ion-radio id="survey-radio2" name="Topping" ng-model="data.favorite_pizza" ng-value="'Pepperoni&quot;">Pepperoni</ion-radio>
+      <ion-radio id="survey-radio4" name="Topping" ng-model="data.favorite_pizza" ng-value="'Sausage'">Sausage</ion-radio>
+      <ion-radio id="survey-radio3" name="Topping" ng-model="data.favorite_pizza" ng-value="'Cheese'">Cheese</ion-radio>
+      <button id="survey-button1" ng-click="submit()" ng-disabled="submitting" class="button button-dark button-block">Submit</button>
+    </form>
+  </ion-content>
+</ion-view>
