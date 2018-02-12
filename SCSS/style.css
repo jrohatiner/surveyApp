@@ -1,0 +1,21 @@
+.login {
+    margin-top: 50px!important;
+}
+
+.sign-up {
+    margin-right: 30px!important;
+    margin-left: 30px!important;
+}
+
+.sign {
+    margin-right: 50px!important;
+    margin-left: 30px!important;
+}
+
+.name,.email,.pass {
+    margin-top: 20px!important;
+}
+
+.create {
+    text-align: center!important;
+}

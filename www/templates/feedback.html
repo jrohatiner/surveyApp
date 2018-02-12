@@ -1,0 +1,32 @@
+<ion-view title="feedback" id="page11" class="feedback">
+  <ion-content padding="true" class="has-header">
+    <div class="spacer" style="height: 200px;"></div>
+    <div id="feedback-markdown5" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">
+        <strong>please let us know...</strong>
+      </p>
+    </div>
+    <div id="feedback-container3">
+      <form id="feedback-form7" class="list">
+        <label class="item item-input" id="feedback-input15">
+          <span class="input-label">Email Required</span>
+          <input type="email" placeholder="your email">
+        </label>
+        <label class="item item-select select" id="feedback-select2" name="feedback">
+          <span class="input-label">select</span>
+          <select ng-model="data.feedback_text" ng-value="Not My Style">
+            <option>select</option>
+            <option>Loved It!</option>
+            <option>It was OK</option>
+            <option>Not My Style</option>
+          </select>
+        </label>
+        <label class="item item-input" id="feedback-input14">
+          <span class="input-label">Message</span>
+          <input type="text" placeholder="">
+        </label>
+      </form>
+    </div>
+    <button id="feedback-button15" ng-click="submit()" ng-disabled="submiting" class="button button-dark button-block">submit</button>
+  </ion-content>
+</ion-view>
